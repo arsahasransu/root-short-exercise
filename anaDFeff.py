@@ -2,7 +2,7 @@ import ROOT
 
 # Enable multi-threading with the specified amount of threads (let's start with just one)
 # Note that older ROOT versions may require to write ROOT.ROOT.EnableImplicitMT()
-ROOT.ROOT.EnableImplicitMT(1)
+ROOT.ROOT.EnableImplicitMT(6)
 
 # Or enable multi-threading with an auto-detected amount of threads
 #ROOT.EnableImplicitMT()
